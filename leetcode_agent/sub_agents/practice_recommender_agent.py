@@ -7,7 +7,7 @@ from ..tools.generate_practice_schedule import generate_practice_schedule
 
 practice_recommender_agent = Agent(
     name="PracticeRecommenderAgent",
-    model="groq/llama-3.3-70b-versatile",
+    model="gemini-2.0-flash",
     description="Generates a structured 7-day practice schedule with progressive difficulty for a given DSA topic.",
     instruction="""
 You are a study plan specialist for LeetCode preparation.

@@ -7,7 +7,7 @@ from ..tools.search_web import search_web
 
 tutorial_finder_agent = Agent(
     name="TutorialFinderAgent",
-    model="groq/llama-3.3-70b-versatile",
+    model="gemini-2.0-flash",
     description="Finds and summarizes the best tutorials, articles, and video resources for a given LeetCode topic.",
     instruction="""
 You are a tutorial research specialist for DSA topics.

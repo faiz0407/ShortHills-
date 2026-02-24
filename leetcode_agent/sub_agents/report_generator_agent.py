@@ -7,7 +7,7 @@ from ..tools.format_learning_plan import format_learning_plan
 
 report_generator_agent = Agent(
     name="ReportGeneratorAgent",
-    model="groq/llama-3.3-70b-versatile",
+    model="gemini-2.0-flash",
     description="Formats and assembles the final structured LeetCode learning guide from all collected information.",
     instruction="""
 You are a report formatting specialist.

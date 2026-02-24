@@ -8,7 +8,7 @@ from ..tools.extract_problem_links import extract_problem_links
 
 problem_research_agent = Agent(
     name="ProblemResearchAgent",
-    model="groq/llama-3.3-70b-versatile",
+    model="gemini-2.0-flash",
     description="Finds relevant LeetCode problems for a given topic using web search and curated problem lists.",
     instruction="""
 You are a LeetCode problem research specialist.
