@@ -19,7 +19,7 @@ from .sub_agents.report_generator_agent import report_generator_agent  # noqa: E
 
 root_agent = Agent(
     name="LeetCodeLearningAssistant",
-    model="gemini-1.5-pro",
+    model="gemini-2.0-flash",
     description="Orchestrates multiple specialist agents to generate a comprehensive, structured LeetCode learning guide for any DSA topic.",
     instruction="""
 You are the LeetCode Learning Assistant — an orchestrator that coordinates
